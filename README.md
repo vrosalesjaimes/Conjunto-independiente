@@ -1,8 +1,10 @@
 # Conjunto independiente
-**Definición**
+**Definición:**
+
 Sea $V$ un conjunto de vértices, $H$ un conjunto de aristas y $G=(V,E)$ una gráfica, un **conjunto independiente** $S$ de la gráfica $G$ es un subconjunto de $V$, es decir, un conjunto de vértices tal que ninguno de los vértices en $S$ son adyacentes entre sí.
 
-**Teorema**
+**Teorema:**
+
 Sea $G=(V,E)$ una gráfica dirigida. Existe un conjunto independiente $S(G)$ en $G$ tal que para cada vértice en $G$ puede ser alcanzado a partir de $S(G)$ por una trayectoria de longitud a lo más $2$.
 
 # Instrucciones
@@ -13,20 +15,22 @@ El programa consiste en implementar un programa que regrese un conjunto que cump
 
 Ejemplo de archivo de entrada:
 
-> 1,2,3,4,5,6,7,8 
-> 1,2 
-> 5,6 
-> 7,8 
-> 4,3 
-> 6,1 
-> 6,7 
-> 3,8 
-> 5,4 
-> 4,2 
-> 3,7 
-> 2,6 
-> 7,5 
-> 8,4
+```
+1,2,3,4,5,6,7,8 
+1,2
+5,6
+7,8
+4,3
+6,1
+6,7
+3,8
+5,4
+4,2
+3,7
+2,6
+7,5
+8,4
+```
 
 La salida de la entrada anterior puede ser:
 > [1, 4, 7]
