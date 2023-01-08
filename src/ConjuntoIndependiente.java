@@ -15,7 +15,7 @@ import java.util.Scanner;
  * @author Victor Rosales Jaimes
  *
  */
-public class Programa1 {
+public class ConjuntoIndependiente {
 	
 	/**
 	 * Lee el archivo con la información de una gráfica.
